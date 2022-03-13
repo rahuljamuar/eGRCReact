@@ -31,8 +31,7 @@
     "start": "serve -s build",
     "build": "CI=false && react-scripts build",
     "test": "react-scripts test --env=jsdom --passWithNoTests",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
